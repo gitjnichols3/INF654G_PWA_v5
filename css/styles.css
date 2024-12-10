@@ -1,0 +1,93 @@
+footer {  
+
+    width: 100%;
+    padding-top:0;
+    padding-bottom:10px;
+    font-size:.8rem;
+    margin-top:30px;
+}
+
+.concert-listing{
+    border:1px solid;
+    width:100%;
+    padding:5px;
+    background-color:white;
+    margin:20px;
+}
+
+.concert-listing img{
+    border:1px solid;
+    margin-right:10px;
+}
+
+.clear{
+    clear:both;
+}
+
+.center {
+    margin:auto;
+    text-align:center;
+}
+
+a:link, a:hover, a:visited {color:black;}
+
+.materialboxed {
+    float:left;
+    margin:10px;
+    border:1px solid;
+}
+
+.topMargin {
+    margin-bottom:20px;
+    
+}
+
+.thumb{
+    width:170px;
+    margin:5px;
+    border: 1px solid;
+}
+
+#pics2 {
+    width:980px;
+    margin:auto;
+}
+
+
+@media screen and (max-width:1850px){
+    .pics  {
+        width:980px;
+        margin:auto;
+    }
+    
+}
+@media screen and (max-width:1200px){
+    .pics {
+        width:640px;
+        margin:auto;
+    }
+    
+}
+@media screen and (max-width:800px){
+    .pics {
+        width:300px;
+        float:none;
+        margin:auto;
+    }
+}
+
+    @media screen and (max-width:1850px){
+        #pics2 {
+            width:640px;
+            float:none;
+            margin:auto;
+        }
+    }
+    @media screen and (max-width:600px){
+        #pics2 {
+            width:300px;
+            float:none;
+            margin:auto;
+        }
+    
+}
